@@ -5,14 +5,9 @@ import Logo from "./components/Logo/Logo";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import Rank from "./components/Rank/Rank";
 import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import {loadFull} from "tsparticles";
 
 const particlesOptions = {
-    background: {
-        color: {
-            value: "#0d47a1",
-        },
-    },
     fpsLimit: 120,
     interactivity: {
         events: {
@@ -65,7 +60,7 @@ const particlesOptions = {
                 enable: true,
                 area: 800,
             },
-            value: 80,
+            value: 30,
         },
         opacity: {
             value: 0.5,
